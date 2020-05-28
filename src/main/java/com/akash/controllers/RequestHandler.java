@@ -15,7 +15,7 @@ public class RequestHandler {
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
 	public String request() throws Exception {
-		codeExecutor.execute();
+//		codeExecutor.execute();
 		return "Hello World!";
 	}
 	
